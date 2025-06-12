@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f0fb0a5-7155-4331-bf07-18288fd77e47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CodeGuard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/Analyzer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/Testing_quality_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/Analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/Analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/Testing_quality_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/Testing_quality_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yaelRedlich"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yaelRedlich/codalyze-.git",
+    "accountId": "5a269ceb-c516-4083-b37a-3615458119c2"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2yJvMsBPxr7WVcncjn8r7iCeYeC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,10 +47,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Analyzer.executor": "Run",
     "Python.Entity.executor": "Run",
     "Python.Testing_quality_code.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="RecentsManager">

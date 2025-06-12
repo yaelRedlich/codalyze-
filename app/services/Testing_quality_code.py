@@ -1,4 +1,15 @@
 import ast
+import os
+
+
+def analyze_code(folder_path):
+    all_file = { }
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(".py"):
+                full_path = os.path.join(root, file)
+                all_file[file]=(analyze_file(full_path))
+    return all_file
 def analyze_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         source = f.read()
@@ -44,4 +55,8 @@ def undefined_variable_analyzer(func_node: ast.FunctionDef):
 def has_docstring_manual(func_node: ast.FunctionDef):
     return ast.get_docstring(func_node) is not None
 
-print(analyze_file(r"C:\Users\user1\Desktop\python\witProjet\classes\Repository.py"))
+
+
+
+
+
