@@ -1,14 +1,15 @@
 import matplotlib.pyplot as plt
 from io import BytesIO
-import Testing_quality_code as t
+from app.services import Testing_quality_code as t
 
 
-def create_diagram(folder_path) :
+def create_diagrams(folder_path) :
    dict_image ={}
    data = t.analyze_code(folder_path)
    dict_image["histogram"] = create_lengths_list(data)
    dict_image["pie"] = create_issue_dict(data)
    dict_image["bar"] = create_list_sum_issue(data)
+   return dict_image
 
 
 def create_lengths_list(data):
@@ -99,7 +100,6 @@ def create_bar_sum_issue_for_file(data):
     buf.seek(0)
     return buf
 
-create_diagram(r"C:\Users\user1\Desktop\python\witProjet\classes")
 
 
 
